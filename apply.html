@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REFUEL | Apply Here</title>
+    <link rel="stylesheet" href="css/styles.css">
+<script src="script/scripts.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <div class="logo">REFUEL</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="trainees.html">Trainees</a>
+            <a href="apply.html" class="active">Apply</a>
+           
+        </nav>
+    </div>
+</header>
+
+<section class="page-hero">
+    <h1>Apply to Join Us</h1>
+    <p>Fill out the form below to apply for one of our trainee roles at Refuel Haydock.</p>
+</section>
+
+<section class="menu-section">
+
+    <div class="section-intro">
+        <h2>Trainee Application Form</h2>
+        <p>Please complete all fields so we can review your application.</p>
+    </div>
+
+    <div class="menu-block" style="max-width: 700px; margin: 0 auto;">
+
+        <form action="#" method="post" style="display: grid; gap: 1.2rem;">
+
+            <label>
+                Full Name:
+                <input type="text" name="fullname" required 
+                style="width: 100%; padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;">
+            </label>
+
+            <label>
+                Email Address:
+                <input type="email" name="email" required
+                style="width: 100%; padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;">
+            </label>
+
+            <label>
+                Phone Number:
+                <input type="text" name="phone" required
+                style="width: 100%; padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;">
+            </label>
+
+            <label>
+                Which Trainee Programme Are You Applying For?
+                <select name="programme" required
+                style="width: 100%; padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;">
+                    <option value="">Select an option</option>
+                    <option value="barista">Barista Trainee</option>
+                    <option value="kitchen">Kitchen Assistant Trainee</option>
+                    <option value="events">Community Events Trainee</option>
+                </select>
+            </label> 
+
+            <label>
+                Tell Us Why You Want to Join:
+                <textarea name="message" rows="5" required
+                style="width: 100%; padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;"></textarea>
+            </label>
+
+            <button type="submit" class="btn" style="width: fit-content; margin-top: 1rem;">
+                Submit Application
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <p>© 2026 Refuel Haydock — Community Café & Events</p>
+    </div>
+</footer>
+
+<button id="backToTop">Back to Top</button>
+<script src="script/script.js"></script>
+
+</body>
+</html>
